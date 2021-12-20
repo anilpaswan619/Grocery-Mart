@@ -1,0 +1,22 @@
+  .card-img-top {
+      width: 75%;
+      display: block;
+      margin: 0 auto;
+  }
+  .add-btn {
+      display: block;
+      margin: 0 auto;
+      font-size: 12px;
+      border-radius:4px;
+      background-color: #009b37;
+  }
+  .fa-shopping-cart {
+      color:white;
+      font-size:16px;
+  }
+.col-md-3:hover {
+    border-radius: 20px;
+background: #ffffff;
+box-shadow:  5px -5px 100px #dedede,
+             -5px 5px 100px #ffffff;
+}

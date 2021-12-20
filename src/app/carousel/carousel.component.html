@@ -1,0 +1,8 @@
+<div class="carousel-container">
+  <ngb-carousel *ngIf="images.length > 0">
+    <ng-template ngbSlide *ngFor="let item of images">
+      <div class="picsum-img-wrapper">
+        <img [src]="item.image" alt="Random first slide" class="carousel-img">
+      </div>
+    </ng-template>
+  </ngb-carousel>

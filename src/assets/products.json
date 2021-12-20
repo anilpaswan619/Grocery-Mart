@@ -1,0 +1,183 @@
+[
+  {
+    "id": 1,
+    "name": "Detergent",
+    "image": "../assets/product-images/wash.jpg",
+    "price": 399,
+    "discount": 20,
+    "description": "Get a Cambo Pack!",
+    "type": "Cleaning & Household"
+  },
+    {
+      "id": 2,
+      "name": "Fruits",
+      "image": "../assets/product-images/fruits.jpg",
+      "price": 699,
+      "discount": 10,
+      "description": "Get a quality Fresh Fruits!",
+      "type": "Fruits & Vegetables"
+    },
+    {
+      "id": 3,
+      "name": "Tea Pack",
+      "image": "../assets/product-images/tea.jpg",
+      "price": 399,
+      "discount": 5,
+      "description": "Get a Cambo Tea Pack!",
+      "type": "Beverages"
+    },
+    {
+      "id": 4,
+      "name": "Coconut",
+      "image": "../assets/product-images/coconut.jpg",
+      "price": 299,
+      "discount": 15,
+      "description": "Get a sweet Coconut!",
+      "type": "Fruits & Vegetables"
+    },
+    {
+      "id": 5,
+      "name": "Cauliflower",
+      "image": "../assets/product-images/cwaliflower.jpg",
+      "price": 199,
+      "discount": 25,
+      "description": "Get a fresh Cauliflower!",
+      "type": "Fruits & Vegetables"
+    },
+    {
+      "id": 6,
+      "name": "Carrot",
+      "image": "../assets/product-images/carrot.jpg",
+      "price": 149,
+      "discount": 8,
+      "description": "Get a fresh Carrot!",
+      "type": "Fruits & Vegetables"
+    },
+    {
+      "id": 7,
+      "name": "Shampoo",
+      "image": "../assets/product-images/Shampoo.jpg",
+      "price": 399,
+      "discount": 10,
+      "description": "Get a daily use Shampoo!",
+      "type": "Cleaning & Household"
+    },
+    {
+      "id": 8,
+      "name": "Vegetables",
+      "image": "../assets/product-images/vegetables.jpg",
+      "price": 249,
+      "discount": 5,
+      "description": "Get a fresh Vegetables!",
+      "type": "Fruits & Vegetables"
+    },
+    {
+      "id": 9,
+      "name": "Biscuits",
+      "image": "../assets/product-images/biscuits.jpg",
+      "price": 299,
+      "discount": 30,
+      "description": "Get a Combo Pack of Biscuits!",
+      "type": "Snacks & Packed Food"
+    },
+    {
+      "id": 10,
+      "name": "Chips",
+      "image": "../assets/product-images/chips.jpg",
+      "price": 99,
+      "discount": 12,
+      "description": "Get a Cranky Chips!",
+      "type": "Snacks & Packed Food"
+    },
+    {
+      "id": 11,
+      "name": "Harpic",
+      "image": "../assets/product-images/cleaning.jpg",
+      "price": 799,
+      "discount": 6,
+      "description": "Get a Combo Pack of Harpic!",
+      "type": "Cleaning & Household"
+    },
+    {
+      "id": 12,
+      "name": "Noodles",
+      "image": "../assets/product-images/noodles.jpg",
+      "price": 799,
+      "discount": 15,
+      "description": "Get a Combo Pack of Noodles!",
+      "type": "Snacks & Packed Food"
+    },
+    {
+      "id": 13,
+      "name": "Coffee",
+      "image": "../assets/product-images/coffee.jpg",
+      "price": 799,
+      "discount": 25,
+      "description": "Get a Combo Pack of Coffee!",
+      "type": "Beverages"
+    },
+    {
+      "id": 14,
+      "name": "Horlicks",
+      "image": "../assets/product-images/drinks.jpg",
+      "price": 799,
+      "discount": 18,
+      "description": "Get a Combo Pack of Horlicks!",
+      "type": "Beverages"
+    },
+    {
+      "id": 15,
+      "name": "Instant Coffee",
+      "image": "../assets/product-images/ins-coffee.jpg",
+      "price": 799,
+      "discount": 7,
+      "description": "Get a Instant Coffee!",
+      "type": "Beverages"
+    },
+    {
+      "id": 16,
+      "name": "Soup",
+      "image": "../assets/product-images/soup.jpg",
+      "price": 799,
+      "discount": 25,
+      "description": "Get a Combo Pack of Soup!",
+      "type": "Beverages"
+    },
+    {
+      "id": 17,
+      "name": "Dry Fruits",
+      "image": "../assets/product-images/seeds.jpg",
+      "price": 799,
+      "discount": 15,
+      "description": "Get a Quality Dry Fruits!",
+      "type": "Fruits & Vegetables"
+    },
+    {
+      "id": 18,
+      "name": "Pulses",
+      "image": "../assets/product-images/pulses.jpg",
+      "price": 799,
+      "discount": 14,
+      "description": "Get a Variety of Pulses!",
+      "type": "Pulses & Grain"
+    },
+    {
+      "id": 19,
+      "name": "Rice",
+      "image": "../assets/product-images/rice.jpg",
+      "price": 799,
+      "discount": 25,
+      "description": "Get a Quality Rice!",
+      "type": "Pulses & Grain"
+    },
+    {
+      "id":20,
+      "name": "Snacks",
+      "image": "../assets/product-images/snacks.jpg",
+      "price": 799,
+      "discount": 35,
+      "description": "Get a Combo of Snacks!!",
+      "type": "Snacks & Packed Food"
+    }
+    
+  ]

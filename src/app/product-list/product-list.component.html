@@ -1,0 +1,32 @@
+<div class="container-fluid">
+<span>
+<ul ngbNav #nav="ngbNav" class="nav-tabs justify-content-center">
+  <li ngbDropdown class="nav-item">
+    <a href (click)="false" class="nav-link" id="category" ngbDropdownToggle>{{activeProduct}}</a>
+    <div ngbDropdownMenu>
+      <button ngbDropdownItem (click)="filterProduct('Fruits & Vegetables')">Fruits & Vegetables</button>
+      <button ngbDropdownItem (click)="filterProduct('Beverages')">Beverages</button>
+      <button ngbDropdownItem (click)="filterProduct('Snacks & Packed Food')">Snacks & Packed Food</button>
+      <button ngbDropdownItem (click)="filterProduct('Cleaning & Household')">Cleaning & Household</button>
+      <button ngbDropdownItem (click)="filterProduct('Pulses & Grain')">Pulses & Grain</button>
+      <div class="dropdown-divider"></div>
+      <button ngbDropdownItem (click)="filterProduct('All')">All Products</button>
+    </div>
+  </li>
+</ul>
+<div [ngbNavOutlet]="nav" class="mt-4"></div>&#9866; Best Sellers &#9866;</span>
+<div class="row flex-wrap">
+  
+  <div class="col-md-3" *ngFor="let product of filteredProducts">
+    <img [src]="product.image" class="card-img-top">
+    <div class="card-body">
+      <h6 class="card-title text-center" [title]="product.name + ' details'" >      {{ product.name }}
+      </h6>
+     <p class="text-center"> {{ product.price | currency: 'INR' }} | -{{product.discount}}% Off</p>
+     <p class="text-center"></p>
+      <p class="card-text text-center" *ngIf="product.description">{{ product.description }}</p>
+      <button class="add-btn" (click)="share(product)"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+    </div>
+  </div>
+</div>
+</div>

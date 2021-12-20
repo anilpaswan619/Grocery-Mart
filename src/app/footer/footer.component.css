@@ -1,0 +1,13 @@
+.footer {
+    background-color: #31A55A;
+    width: 100%;
+    height:250px;
+    color: white;    
+}
+.footer-links {
+    text-decoration: none;
+    list-style-type: none;
+}
+.col-md-6 {
+    margin-top:70px;
+}

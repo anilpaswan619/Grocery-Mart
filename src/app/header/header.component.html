@@ -1,0 +1,7 @@
+<a [routerLink]="['/']">
+  <h1><i class="material-icons mall">local_mall</i><span class="store-txt">Grocery Mart</span></h1> 
+
+</a>
+<app-nav></app-nav>
+<a class="button fancy-button"><i class="material-icons">shopping_cart</i>Cart ({{ (items$ | async).length}})</a>
+
