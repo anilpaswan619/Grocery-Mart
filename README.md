@@ -1,4 +1,5 @@
 # GroceryApp
+The live hosted this project is here https://anil-grocery-mart.vercel.app/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
 
